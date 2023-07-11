@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #162055;
+  }
+  
+  .nav_box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tabs-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .tab {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  /* .my_shop {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+  } */
+  .cart {
+    cursor: pointer;
+  }
+  .cart span:nth-child(1) {
+    font-size: 2rem;
+    color: rgb(36, 125, 147);
+  }
+  .cart span:nth-child(2) {
+    padding: 0 3px;
+    background-color: rgb(128, 9, 108);
+    color: rgb(197, 94, 94);
+    font-weight: bolx;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+  }
+
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tabs-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tab {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+  }
+  
+  .tab:hover {
+    background-color: lightblue;
+  }
+  
+  .cart-profile-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    margin-right: 10px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cart-icon span {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .profile-name {
+    margin-right: 5px;
+  }
+  
